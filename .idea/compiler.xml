@@ -12,5 +12,8 @@
         <module name="Staff" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="MainApp" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>

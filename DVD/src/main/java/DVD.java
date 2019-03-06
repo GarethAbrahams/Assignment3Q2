@@ -1,14 +1,14 @@
 public class DVD {
 
-    String dvdName, Catergory;
+    String dvdName, Category;
 
     public  DVD (){
 
     }
 
-    public DVD(String dvdName, String catergory) {
+    public DVD(String dvdName, String category) {
         this.dvdName = dvdName;
-        Catergory = catergory;
+        Category = category;
     }
 
     public String getDvdName() {
@@ -19,19 +19,19 @@ public class DVD {
         this.dvdName = dvdName;
     }
 
-    public String getCatergory() {
-        return Catergory;
+    public String getCategory() {
+        return Category;
     }
 
-    public void setCatergory(String catergory) {
-        Catergory = catergory;
+    public void setCategory(String category) {
+        Category = category;
     }
 
     @Override
     public String toString() {
         return "DVD{" +
                 "dvdName='" + dvdName + '\'' +
-                ", Catergory='" + Catergory + '\'' +
+                ", Category='" + Category + '\'' +
                 '}';
     }
 }
